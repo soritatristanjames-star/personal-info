@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #fff;
+      width: 90%;
+      max-width: 600px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .card h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      border: 3px solid #3498db;
+    }
+
+    h3 {
+      color: #34495e;
+      margin-top: 20px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      text-align: left;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: #2c3e50;
+      text-align: left;
+    }
+
+    ul {
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    strong {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>My Personal Information</h2>
+    
+    <!-- Profile Picture -->
+    <img src="https://i.postimg.cc/28fNsp7N/IMG-20250730-103548.jpg" 
+         alt="Tristan James Sorita Profile Picture" 
+         class="profile-pic">
+
+    <h3>Personal Information</h3>
+    <p><strong>Name:</strong> Tristan James F. Sorita</p>
+    <p><strong>Address:</strong> 32F Makisig St., Brgy. Pinyahan, Quezon City</p>
+    <p><strong>Birthday:</strong> September 4, 2007</p>
+    <p><strong>Age:</strong> 18</p>
+    <p><strong>Religion:</strong> Roman Catholic</p>
+
+    <h3>Student Contact Information</h3>
+    <p><strong>Email:</strong> qtjsorita@tip.edu.ph</p>
+    <p><strong>Phone:</strong> 09628326806 (Smart)</p>
+
+    <h3>Guardian Information</h3>
+    <p><strong>Mother:</strong> Maria Victoria Sorita</p>
+    <p><strong>Father:</strong> Victor C. Sorita Jr.</p>
+
+    <h3>Skills and Hobbies</h3>
+    <ul>
+      <li>Guitar</li>
+      <li>Online Games</li>
+    </ul>
+
+    <h3>Achievements</h3>
+    <ul>
+      <li>Graduate of With Honors with an average of 94%</li>
+      <li>Protocol Officer Committee of Campus Integrity Crusaders in Ramon Magsaysay Cubao High School</li>
+    </ul>
+  </div>
+
+</body>
+</html>
